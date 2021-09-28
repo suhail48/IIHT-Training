@@ -1,5 +1,5 @@
 
-# Sorting Numerical Data:
+# Sorting Numerical/Alphabetical Data:
 def mergeSort(myList):
     if len(myList) > 1:
         mid = len(myList) // 2
@@ -49,6 +49,11 @@ List = [54,26,93,17,77,31,44,55,20]
 mergeSort(List)
 print("New sorted List: ",List)
 
+List = ['apsd', 'bchd', 'bd']
+mergeSort(List)
+print("New sorted List: ",List)
+
+
 #Set
 Set={7,2,7,1,9,4,6,8}
 mergeSort(list(Set))
@@ -69,4 +74,3 @@ for i in range(len(l)):
     new_dict[l[i]]=dict1[l[i]]
 print("New sorted Dictionary: ",new_dict)
 
-# Still working on sorting strings using merge sort.
