@@ -6,9 +6,9 @@ x(l, e)
 print("list: ",l)
 
 #Convert list to dictionary
-
 new_dict = { l[i]:l[i] for i in range(len(l))}
 print("List converted to dictionary: ",new_dict)
 
 #sort dictionary based on values
-dict(sorted(new_dict.items(), key=lambda item: item[1]))
+d=dict(sorted(new_dict.items(), key=lambda item: item[1]))
+print("Sorted dictionary: ", d)
