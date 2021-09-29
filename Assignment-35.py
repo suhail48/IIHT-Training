@@ -1,9 +1,13 @@
 #Append element to list
 x = lambda l, ele : l.append(ele)
-l=[4,2,98,6,1,7]
-e = int(input("Enter element to append to list: "))
-x(l, e)
+l=[]
+n=int(input("Enter no. of elements to append "))
+for i in range(n):
+    e=int(input("Enter "))
+    x(l,e)
+
 print("list: ",l)
+
 
 #Convert list to dictionary
 new_dict = { l[i]:l[i] for i in range(len(l))}
